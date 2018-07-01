@@ -2,6 +2,7 @@
 
 ## Unity API
  * `using MLAgents;` needs to be added in all of the C# scripts that use ML-Agents. 
+ * The file `ExternalCommunicator.cs` has been refactored into several other scripts, delete your copy of this file if you are doing a drag-and-drop upgrade into an older project.
 
 ## Python API
  * We've changed some of the python packages dependencies in requirement.txt file. Make sure to run `pip install .` within your `ml-agents/python` folder to update your python packages. 
